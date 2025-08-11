@@ -1,4 +1,4 @@
-# ElectroCraze - E-Commerce Website
+#  E-Commerce Website -ElectroCraze 
 ElectroCraze is a responsive e-commerce web application built with Vue.js and Vuetify, featuring product listing, shopping cart, responsive layouts, and a modern UI.  
 It is designed to showcase a seamless online shopping experience for electronics and gadgets.
 

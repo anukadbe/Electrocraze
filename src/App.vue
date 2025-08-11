@@ -11,7 +11,7 @@
        <!-- Navigation Buttons -->
       <v-btn text @click="router.push('/')">Home</v-btn>
       <v-btn text @click="router.push('/about')">About Us</v-btn>
-      <v-btn text @click="router.push('/product')">Products</v-btn>      
+      <v-btn text @click="router.push('/products')">Products</v-btn>      
       <v-btn text @click="router.push('/contact')">Contact</v-btn>
 
     

@@ -6,7 +6,7 @@
     <v-spacer />
   
     <v-btn text to="/home" class="nav-link">Home</v-btn>
-    <v-btn text to="/product" class="nav-link">Products</v-btn>
+    <v-btn text to="/products" class="nav-link">Products</v-btn>
     <v-btn text to="/about" class="nav-link">About Us</v-btn>
     <v-btn text to="/contact" class="nav-link">Contact</v-btn>
   </v-app-bar>

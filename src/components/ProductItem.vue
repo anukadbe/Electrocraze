@@ -3,9 +3,9 @@
   
   <v-sheet class="ma-2 pa-2">
     <v-card
-        class="product"
+        class="product d-flex flex-column"
     >
-      <v-img
+      <v-img class="mx-auto"
           :src="props.productData.image"
           height="180px" width="170px"
           cover

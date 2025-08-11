@@ -36,15 +36,14 @@
 import { productsStore } from '@/stores/products'
 import ProductItem from '@/components/ProductItem.vue'
 import { ref, computed } from 'vue'
-// import { useRouter } from "vue-router";
-// import { computed } from "vue";
+
 
 const store = productsStore()
 const showAll = ref(false)
-// const router = useRouter();
 
 
-// Computed list of products based on showAll flag
+
+// Computed list of products based on showAll 
 const displayedProducts = computed(() => {
   return showAll.value ? store.products : store.products.slice(0, 8)
 })

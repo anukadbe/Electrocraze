@@ -72,24 +72,24 @@ const scrollToSection = (id) => {
 }
 
 .v-toolbar {
-  height: 80px !important; /* Change height */
+  height: 80px !important; 
 }
 .v-toolbar-title {
-  font-size: 2.5rem; /* Bigger title text */
-  line-height: 80px; /* Vertically center */
+  font-size: 2.5rem;
+  line-height: 80px;
 }
 .nav-btn {
-  font-size: 1.4rem;      /* Bigger text */
-  padding: 0 20px;        /* More padding for bigger clickable area */
+  font-size: 1.4rem; 
+  padding: 0 20px;      
 }
 
 .cart-btn {
   font-size: 1.6rem;
   font-weight: bold;
-  color: white;           /* Text color */
+  color: white;           
 }
 
 .v-toolbar {
-  height: 80px !important; /* Taller navbar */
+  height: 80px !important; 
 }
 </style> 

@@ -52,13 +52,11 @@ export default {
 
 <style scoped>
 
-.about-us-section {
-  
+.about-us-section {  
   padding: 70px 30px;
   background-color: rgb(244, 241, 239);
   font-family: 'Segoe UI', sans-serif;
 }
-
 .about-us-container {
   display: flex;
   flex-wrap: wrap;
@@ -66,68 +64,52 @@ export default {
   gap: 40px;
   align-items: center;
 }
-
 .about-left {
   flex: 1;
 }
-
 .section-subtitle {
   color: black;
   font-weight: bold;
   font-size: 50px;
 }
-
 .section-title {
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
   color:rgb(59, 62, 66)
 }
-
 .section-description {
   margin: 30px 0;
   line-height: 1.6;
   color: #444;
   font-size: 1.3rem;
 }
-
 .features ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .features li {
   margin-bottom: 10px;
   padding-left: 20px;
   position: relative;
   font-size: 1.5rem;
 }
-
 .features li::before {
   content: "✔";
   position: absolute;
   left: 0;
   color: #28a745;
 }
-
 .bold-text {
   font-weight: 600;
   margin: 20px 0;
   font-size: 20px;
 }
-
 .about-right {
   flex: 1;
   min-width: 300px;
 }
-
-/* .image-box {
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-} */
-
 .image-box img {
   width: 90%;
   border-radius: 16px;
@@ -137,7 +119,6 @@ export default {
 .testimonial {
   margin-top: 40px;
 }
-
 .quote {
   font-style: italic;
   color: #444;
@@ -145,7 +126,6 @@ export default {
   position: relative;
   padding-left: 30px;
 }
-
 .quote::before {
   content: "❝";
   font-size: 34px;
